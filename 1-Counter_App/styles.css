@@ -1,52 +1,52 @@
 body {
       background-color: #212121;
       color: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-}
-* {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .container {
-      background: linear-gradient(70deg, #7FC7D9, #365486);
-      padding: 30px 60px;
-      border-radius: 7px;
-}
-.container .heading {
-      font-size: 44px;
-      margin-bottom: 15px;
-}
-.container > p {
-      font-size: 32px;
-      text-align: center;
-}
-.container > hr {
-      border: 0;
-      border-bottom: 1px solid #fff;
-      margin-bottom: 20px;
-}
-.container .buttons {
+      height: 100vh;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
+      align-items: center;
 }
 
-button {
-      border: 0;
-      padding: 7px 10px;
-      border-radius: 3px;
+.counter {
+      background-color: #8d4200;
+      width: 350px;
+      border-radius: 5px;
+      text-align: center;
+      padding: 20px;
+}
+.counter h1 {
+      font-family: 'Times New Roman', Times, serif;
+}
+.counter > * {
+      margin-bottom: 20px;
+}
+.counter .count {
+      font-size: 30px;
+}
+
+
+.buttons {
+      display: flex;
+      justify-content: space-around;
+}
+.buttons button {
+      border: none;
+      outline: none;
+      padding: 10px;
+      border-radius: 5px;
+      font-weight: 700;
       color: #fff;
 }
-.container .buttons > .subs {
-      background-color: #00a44a;
+.buttons .substract {
+      background-color: #e11b01;
 }
-.container .buttons > .reset {
-      background-color: #a50257;
+.buttons .reset {
+      color: #000;
 }
-.container .buttons > .add {
-      background-color: #aa9f02;
+.buttons .add {
+      background-color: #009000;
 }
