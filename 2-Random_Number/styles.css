@@ -1,0 +1,35 @@
+body {
+      background-color: #212121;
+      color: #fff;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.container {
+      min-width: 400px;
+      min-height: 200px;
+      background-color: #bf8207;
+      padding: 20px;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+}
+.container .num {
+      font-size: 42px;
+}
+.container h1 {
+      font-family: 'Times New Roman', Times, serif;
+}
+button {
+      border: none;
+      outline: none;
+      padding: 10px;
+      border-radius: 5px;
+      font-weight: 700;
+}
